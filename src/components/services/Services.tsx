@@ -17,8 +17,7 @@ export default function ServicesSection() {
       <div className="max-w-5xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold text-green-800">Main Services</h2>
         <p className="text-gray-600 mt-2">
-          Expeditions commenti usue errore, moerori funmii vel molitium iusto sufficit. 
-          Co non reverti atque. Louor nicolae in pede tui nibh destituta.
+        At Nelber Farm, we offer expert construction services, including road construction and repair, building residential and commercial structures, and professional pipe laying, ensuring quality, durability, and efficiency in every project.
         </p>
 
         {/* Service Tabs */}

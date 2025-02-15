@@ -7,7 +7,7 @@ export default function AboutSection() {
             <img
               src="/image_4.JPG"
               alt="Truck"
-              className="w-full lg:max-h-[90vh]  shadow-lg"
+              className="w-full lg:max-h-[100vh]  shadow-lg"
             />
           </div>
   
@@ -17,7 +17,7 @@ export default function AboutSection() {
             <p className="mt-4 text-gray-300">
               Nelber farm Ltd begun in the year 1996 by one Albert Mung'anya Leina
               and his wife Nelly Saama Mung'anya in a small village in Loitoktok
-              Kajiado South.....It has been able to gradually grow from just
+              Kajiado South.It has been able to gradually grow from just
               supplying building materials, to now construction of roads both new
               and old to construction of residential homes to class rooms as well.
             </p>
@@ -28,8 +28,7 @@ export default function AboutSection() {
             <div className="mt-4 space-y-4">
               <div className="rounded-lg text-gray-300">
 
-                Ultrices volutpat malesuada id commodo. Cursus tempor at dictumst
-                senectus vel. Aliquet nullam at massa sed vulputate.
+              Nelber farm Ltd is set up to deliver the best results within the given time to the satisfaction of its customers.
               </div>
               {/* <div className="bg-gray-800 text-white p-4 rounded-lg">
                 Ultrices volutpat malesuada id commodo. Cursus tempor at dictumst

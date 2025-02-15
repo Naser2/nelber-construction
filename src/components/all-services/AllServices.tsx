@@ -40,10 +40,7 @@ export default function ServicesGrid() {
             {
               title: "Ballast(Three Types – Different Sizes)",
               image: "/services/construction-materials/ballast.jpeg",
-              description:" We supply three types of ballast, each available in various sizes to suit different construction needs. Delivered in 13, 20, and 30-ton trucks, ensuring you get the right quantity for your project:
-              1. ¾ inch ballast – Ideal for concrete mixing and structural foundations.
-              2. ½ inch ballast – Suitable for plastering and finishing works.
-              3. ¼ inch ballast – Perfect for screeding and flooring projects.",
+              description:" We supply three types of ballast, each available in various sizes to suit different construction needs. Delivered in 13, 20, and 30-ton trucks, ensuring you get the right quantity for your project: 1 ¾\" ballast – Ideal for concrete mixing and structural foundations. 2 ½\" ballast – Suitable for plastering and finishing works. 3 ¼\" ballast – Perfect for screeding and flooring projects.",
             }, {
               title: "Sand",
               image: "/services/sand.jpeg",
