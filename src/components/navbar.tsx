@@ -135,7 +135,7 @@ export const Navbar = () => {
 
       <NavbarMenu>
         {/* {searchInput} */}
-        <div className="mx-4 mt-2 flex-col gap-2  !ml-0 bg-[#5eead417] ">
+        <div className="mx-4 mt-2 flex-col gap-2  !ml-0 bg-[#5eead417] !mt-[90px]">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index} sidebar_link `}>
               <Link
