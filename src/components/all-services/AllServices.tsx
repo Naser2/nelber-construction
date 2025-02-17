@@ -33,38 +33,38 @@ export default function ServicesGrid() {
         addtionalDetails:[
           {
             title: "Ballast(Three Types – Different Sizes)",
-            image: "/services/construction-materials/ballast.jpeg",
+            image: "/services/construction-materials/ballast.jpg",
             description:" We supply three types of ballast, each available in various sizes to suit different construction needs. Delivered in 13, 20, and 30-ton trucks, ensuring you get the right quantity for your project: 1 ¾\" ballast – Ideal for concrete mixing and structural foundations. 2 ½\" ballast – Suitable for plastering and finishing works. 3 ¼\" ballast – Perfect for screeding and flooring projects.",
           }, {
             title: "Sand",
-            image: "/services/sand.jpeg",
+            image: "/services/construction-materials/sand.jpg",
             description:
               "Our high-quality river sand and coarse sand are perfect for plastering, block making, and concrete work. We ensure clean and debris-free sand for superior building strength. Available in 13, 20, and 30-ton truckloads.",
           }, {
             title: "Murram",
-            image: "/services/construction-materials/murram.jpeg",
+            image: "/services/construction-materials/murram.jpg",
             description:
               "We supply premium-grade murram, commonly used for road construction, landscaping, and ground leveling. Our murram is well-compacted and free from impurities, delivered in 13, 20, and 30-ton trucks to meet your site requirements.",
           }, {
             title: "Hardcore Volcanic Rock",
-            image: "/services/construction-materials/hardcore.jpeg",
+            image: "/services/construction-materials/hardcore.jpg",
             description:
               "Hardcore volcanic rock is essential for sturdy foundations, road base layers, and filling works. Our high-density, durable hardcore provides the perfect base for any structure, ensuring long-term stability.",
           }, {
             title: "Machine cut Taveta stones",
-            image: "/services/construction-materials/machinetaveta.jpeg",
+            image: "/services/construction-materials/machinetaveta.jpg",
             description:
               "We supply Taveta machine-cut stones, known for their uniform size, durability, and smooth finish, making them ideal for wall construction and exterior finishing. These stones reduce mortar use and speed up construction time.",
           },
           {
             title: "Foundation Taveta Quarry Blocks",
-            image: "/services/construction-materials/2beceb80432631df2823c79188b3ced9.jpeg",
+            image: "/services/construction-materials/foundation.jpg",
             description:
               "Our high-quality foundation blocks are perfect for building strong, stable foundations for homes, commercial buildings, and infrastructure projects. These blocks are durable, easy to install, and provide excellent structural support.",
           },
           {
             title: "Machine Cut Thika Ndarugu Stones",
-            image: "/services/construction-materials/machinethika.jpeg",
+            image: "/services/construction-materials/machinethika.jpg",
             description:
               "We supply Thika Ndarugu machine-cut stones, known for their high strength, durability, and uniform size. These stones are ideal for wall construction, providing a smooth finish and reducing mortar use.",
 
@@ -81,16 +81,16 @@ export default function ServicesGrid() {
         addtionalDetails:[
           {
             title: "Back hoe",
-            image: "/services/equipment-hiring/Backhoe.jpeg",
+            image: "/services/equipment-hiring/Backhoe.jpg",
             description:"Our back hoe is a versatile machine used for digging, trenching, and material handling. It features a front bucket for loading and a rear arm for excavation, making it perfect for small to medium construction projects. This machine is ideal for foundation digging, backfilling, and clearing debris, ensuring efficiency on your site.",
           }, {
             title: "Wheel Loader",
-            image: "/services/equipment-hiring/wheelloader.jpeg",
+            image: "/services/equipment-hiring/wheelloader.jpg",
             description:
               "The wheel loader is designed for lifting and transporting heavy materials like sand, gravel, and ballast. With its large bucket capacity, it speeds up material handling, making it essential for construction sites, roadworks, and quarries. Our well-maintained wheel loader ensures fast and efficient loading to keep your project moving.",
           }, {
             title: "Excavator",
-            image: "/services/equipment-hiring/excavator.jpeg",
+            image: "/services/equipment-hiring/excavator.jpg",
             description:
               "Our excavator is built for heavy-duty digging, land clearing, and foundation excavation. It features a powerful hydraulic arm for precision work in trenching, rock breaking, and large-scale earthmoving. Whether you're working on building foundations or site preparation, this machine delivers strength and reliability for your project.",
           },
