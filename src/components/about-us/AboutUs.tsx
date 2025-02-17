@@ -1,18 +1,18 @@
 export default function AboutSection() {
     return (
-      <section className="w-full bg-seconday-background text-white">
-        <div className="mx-auto  flex flex-col md:flex-row gap-10">
+      <section className="w-full bg-seconday-background text-white ">
+        <div className="mx-auto flex flex-col md:flex-row">
           {/* Left: Images Section */}
-          <div className="w-full md:w-1/2 space-y-6">
+          <div className="w-full h-full md:w-1/2">
             <img
               src="/image_4.JPG"
               alt="Truck"
-              className="w-full lg:max-h-[100vh]  shadow-lg"
+              className="w-full h-full object-cover shadow-lg"
             />
           </div>
   
           {/* Right: Text Section */}
-          <div className="w-full !max-w-[465px] md:w-1/2 md:py-20 overflow-hidden px-6 md:px-24 lg:py-44">
+          <div className="md:w-1/2 overflow-hidden px-6 md:px-24 my-8 flex flex-col justify-center">
             <h2 className="text-3xl font-bold text-green-400 lg:mt-4">About Us</h2>
             <p className="mt-4 text-gray-300">
               Nelber farm Ltd begun in the year 1996 by one Albert Mung'anya Leina
