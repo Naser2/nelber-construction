@@ -6,7 +6,7 @@ export default function QuoteContactSection() {
           <h2 className="text-3xl font-bold text-green-700">
             Leading Way In Building & Construction
           </h2>
-          <div className="mt-4 flex justify-center space-x-6 text-gray-700">
+          <div className="mt-4 flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6 text-gray-700">
             <div className="flex items-center space-x-2">
               <span className="text-green-600">✔</span>
               <span>Professional Staff</span>
