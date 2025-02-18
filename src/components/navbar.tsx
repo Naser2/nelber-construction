@@ -133,9 +133,9 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        <Link isExternal href={siteConfig.links.github}>
+        {/* <Link isExternal href={siteConfig.links.github}>
           <GithubIcon className="text-teal-600" />
-        </Link>
+        </Link> */}
         <ThemeSwitch className="text-gray-200"/>
         <NavbarMenuToggle className="text-teal-600 hover:bg-[text-teal-100]" />
       </NavbarContent>
@@ -151,8 +151,13 @@ export const Navbar = () => {
                   "theme-text-primary px-6 font-bold data-[active=true]:menu-drawer__menu-item--active !h-[54px] min-w-[24px]"
                 )
                 }
-                href="#"
                 size="lg"
+                href={item.href}
+                onPress={() => {
+                                  
+                                  scrollToSection(item.href.replace("#", ""));
+                                }
+                              }
               >
                 {item.label}
               </Link>

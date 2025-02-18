@@ -12,7 +12,7 @@ const ServicePanel = ({ service, isOpen, onClose }: { service: Service, isOpen: 
           
       >
         <div 
-          className={`fixed inset-y-0 left-0 w-full md:w-2/3 bg-white  
+          className={`fixed inset-y-0 left-0 w-full md:w-2/3 bg-white dark:bg-black ddark:text-slate-200  
             transform transition-transform duration-300 ease-in-out z-50
             ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
         >

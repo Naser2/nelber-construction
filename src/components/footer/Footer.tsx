@@ -45,7 +45,8 @@ export default function Footer() {
           <div>
             <h3 className="text-2xl font-bold text-gray-900">NELBER</h3>
             <p className="text-gray-700 text-sm mt-2">
-              Denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual.
+            Our full control over the supply chain enables us to deliver superior quality, 
+            competitive pricing, and unmatched service excellence.
             </p>
             <div className="flex space-x-4 mt-4">
               <a href="#" className="w-8 h-8 bg-green-600 text-white flex items-center justify-center rounded-full">

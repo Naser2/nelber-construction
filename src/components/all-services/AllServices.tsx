@@ -128,7 +128,7 @@ export default function ServicesGrid() {
       <section id="services" className="w-full py-16 bg-theme--main-surface">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-green-700">Services</h2>
-          <p className="text-gray-600 mt-2 bg-gray-100 p-4 rounded-lg">
+          <p className="text-gray-600 mt-2 bg-gray-100 dark:bg-gray-900 dark:text-slate-100 p-4 rounded-lg">
             At NELBER, we provide high-quality construction services, 
             including residential and commercial buildings, classrooms, new roads, and road repairs. 
             We supply construction materials in bulk, offering 13, 20, 

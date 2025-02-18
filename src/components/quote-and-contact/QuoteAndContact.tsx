@@ -4,7 +4,7 @@ export default function QuoteContactSection() {
 ]">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-green-700">
-            Leading Way In Building & Construction
+            Leading The Way In Building & Construction
           </h2>
           <div className="mt-4 flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6 text-gray-700">
             <div className="flex items-center space-x-2">
@@ -65,7 +65,7 @@ export default function QuoteContactSection() {
                 </div>
                 <textarea
                   placeholder="Additional Details"
-                  className="w-5/6 lg:w-full lg:max-w-[23rem] px-4 py-3 bg-gray-100 text-gray-900 rounded-md focus:outline-none h-24"
+                  className="w-5/6 lg:w-full lg:max-w-[23rem] min-h-16 max-h-48 px-4 py-3 bg-gray-100 text-gray-900 rounded-md focus:outline-none h-24"
                 ></textarea>
   
                 <button className="w-full max-w-[26rem] bg-green-500 text-white py-3 rounded-md font-semibold hover:bg-green-600 transition">

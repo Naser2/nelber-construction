@@ -30,7 +30,7 @@ export default function TestimonialsSection() {
   return (
     <section className="w-full py-16 bg-[#2A322B] text-white text-center">
       <div className="max-w-4xl mx-auto px-6">
-        <h2 className="text-3xl font-bold text-green-500">What Our Client Says</h2>
+        <h2 className="text-3xl font-bold text-green-500">What Our Clients Say</h2>
         <p className="mt-4 text-gray-300">{testimonials[index].feedback}</p>
 
         <div className="mt-6">
