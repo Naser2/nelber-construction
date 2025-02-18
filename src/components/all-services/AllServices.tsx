@@ -14,11 +14,11 @@ export default function ServicesGrid() {
         addtionalDetails:[
           {
             title: "Road Construction and Repair",
-            image: "/services/construction-materials/2beceb80432631df2823c79188b3ced9.jpeg",
+            image: "/services/road.jpg",
             description:"We specialize in the construction of new roads and the repair of old roads, ensuring durable, well-paved, and smooth surfaces for long-term use. Our team handles everything from site preparation and grading to asphalt laying and finishing, delivering high-quality roads for urban and rural areas.",
           }, {
             title: "Residential, Commercial & Classroom Construction",
-            image: "/services/construction-materials/2beceb80432631df2823c79188b3ced9.jpeg",
+            image: "/services/construction.jpg",
             description:
               "We provide comprehensive construction services for residential homes, commercial buildings, and classrooms, ensuring quality workmanship and timely project completion. Our team handles everything from foundation laying and wall construction to roofing, finishing, and interior design, giving you a turnkey solution for your building needs.",
           },
@@ -128,10 +128,14 @@ export default function ServicesGrid() {
       <section className="w-full py-16 bg-theme--main-surface">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-green-700">Services</h2>
-          <p className="text-gray-600 mt-2">
-            Expeditionem commenti usus error, moeruni funmii vel molitium iusto
-            sufficit. Se non reverti atque. Louor nicolae in pede tui nibh
-            destituta.
+          <p className="text-gray-600 mt-2 bg-gray-100 p-4 rounded-lg">
+            At NELBER, we provide high-quality construction services, 
+            including residential and commercial buildings, classrooms, new roads, and road repairs. 
+            We supply construction materials in bulk, offering 13, 20, 
+            and 30-tonne loads to meet project demands. 
+            Our equipment hire services include backhoes and wheel loaders to support various construction needs. 
+            Additionally, we specialize in pipe laying and water connections, 
+            ensuring efficient water supply from main sources to homes and businesses.
           </p>
   
           {/* Grid Section */}

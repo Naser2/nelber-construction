@@ -2,7 +2,6 @@ import { Link } from "@heroui/link";
 import { Snippet } from "@heroui/snippet";
 import { Code } from "@heroui/code";
 import { button as buttonStyles } from "@heroui/theme";
-import Hero from "@/components/Hero/Hero";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
@@ -14,6 +13,7 @@ import CompletedProjects from "@/components/completed-projects/CompletedProjects
 import TestimonialsSection from "@/components/clients/Clients";
 import ServicesGrid from "@/components/all-services/AllServices";
 import Footer from "@/components/footer/Footer";
+
 export default function IndexPage() {
   // data-[menu-open=true]:border-none  backdrop-blur-lg data-[menu-open=true]:backdrop-blur-xl
   return (
@@ -87,7 +87,7 @@ export  function HeroSection() {
           alt="Construction Site"
           className="w-full h-full object-left object-cover opacity-100"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-transparent"/>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/20 lg:from-black/70 to-transparent"/>
       </div>
 
       <div className="relative z-10 max-w-2xl text-white px-6 md:px-12 max-w-[512px] sm:pl-18 lg:pl-36 xl:pl-44">
@@ -98,8 +98,8 @@ export  function HeroSection() {
           The Best <span className="text-green-500">Results</span>
         </h1>
         <p className="mt-4 text-gray-300 max-w-md ">
-          Ex lateque dis sunt ambulat mitius est risus lius in out pestilentiam
-          si sit respectum.
+        Our full control over the supply chain enables us to deliver superior quality, 
+        competitive pricing, and unmatched service excellence.
         </p>
 
         <div className="mt-6 flex space-x-4">

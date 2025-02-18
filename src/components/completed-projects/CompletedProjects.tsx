@@ -27,8 +27,8 @@ export default function CompletedProjects() {
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-green-700">Completed Projects</h2>
           <p className="text-gray-600 mt-2">
-            Expeditionem commenti usus error, moeruni funmii vel molitium iusto sufficit. Se non
-            reverti atque. Louor nicolae in pede tui nibh destituta.
+            Our commitment to excellence is reflected in every completed project, 
+            showcasing superior craftsmanship, quality materials, and reliable execution.
           </p>
   
           {/* Scrollable Project Cards */}
