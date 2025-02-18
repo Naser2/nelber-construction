@@ -125,7 +125,7 @@ export default function ServicesGrid() {
   };
   
     return (
-      <section className="w-full py-16 bg-theme--main-surface">
+      <section id="services" className="w-full py-16 bg-theme--main-surface">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-green-700">Services</h2>
           <p className="text-gray-600 mt-2 bg-gray-100 p-4 rounded-lg">

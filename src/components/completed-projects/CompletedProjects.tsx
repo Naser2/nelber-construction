@@ -23,7 +23,7 @@ export default function CompletedProjects() {
     ];
   
     return (
-      <section className="w-full py-16 bg-theme--main-surface">
+      <section id="projects" className="w-full py-16 bg-theme--main-surface">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-green-700">Completed Projects</h2>
           <p className="text-gray-600 mt-2">

@@ -1,6 +1,6 @@
 export default function QuoteContactSection() {
     return (
-      <section className="w-full py-16 bg-[ #2A322B];
+      <section id="contact" className="w-full py-16 bg-[ #2A322B];
 ]">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-green-700">

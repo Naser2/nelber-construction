@@ -1,4 +1,6 @@
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaInstagram, FaPinterest } from "react-icons/fa";
+import { siteConfig } from "@/config/site";
+import { scrollToSection } from "@/utils/scroll";
 
 export default function Footer() {
   return (
@@ -65,10 +67,14 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold">Quick Links</h3>
             <ul className="mt-2 space-y-2 text-sm text-gray-700">
-              <li><a href="#" className="hover:text-green-700">About Us</a></li>
-              <li><a href="#" className="hover:text-green-700">Services</a></li>
-              <li><a href="#" className="hover:text-green-700">Service Request</a></li>
-              <li><a href="#" className="hover:text-green-700">Contact Us</a></li>
+              {siteConfig.navItems.map((item) => (
+                <li key={item.href}>
+                  <a href={item.href} className="hover:text-green-700"
+                    onClick={(e) => {e.preventDefault(); scrollToSection(item.href.replace("#", ""))}}>
+                      {item.label}</a>
+                </li>
+              ))}
+              
             </ul>
           </div>
 

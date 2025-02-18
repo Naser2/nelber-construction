@@ -26,6 +26,7 @@ import {
 import { Logo } from "@/components/icons";
 // import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
+import { scrollToSection } from "@/utils/scroll";
 
 
 
@@ -68,19 +69,25 @@ export const Navbar = () => {
             href="/"
           >
             {/* <Logo /> */}
-            <p className="font-bold text-xl text-inherit logo mr-12">NEBLER</p>
+            <p className="font-bold text-xl text-inherit logo mr-12">NELBER</p>
           </Link>
         </NavbarBrand>
         <div className="hidden lg:flex gap-4 justify-start ml-2 gap-12 h-8">
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
               <Link
+                
                 className={clsx(
                   linkStyles({ color: "foreground" }),
                   "data-[active=true]:text-teal-600 data-[active=true]:border-b theme-text-primary font-bold data-[active=true]:font-medium"
                 )}
                 color="foreground"
                 href={item.href}
+                onPress={() => {
+                                  
+                                  scrollToSection(item.href.replace("#", ""));
+                                }
+                              }
               >
                 {item.label}
               </Link>
@@ -108,15 +115,15 @@ export const Navbar = () => {
         {/* <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem> */}
         <NavbarItem className="hidden md:flex ">
           <Button
-            isExternal
             as={Link}
+            onPress={() => scrollToSection("contact")}
             endContent={<svg className="!h-5 !w-5 arrow-icon" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12.6174 23.4167C18.3703 23.4167 23.034 18.753 23.034 13C23.034 7.24704 18.3703 2.58334 12.6174 2.58334C6.86438 2.58334 2.20068 7.24704 2.20068 13C2.20068 18.753 6.86438 23.4167 12.6174 23.4167Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M12.6173 17.1667L16.784 13L12.6173 8.83334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M8.45068 13H16.784" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>}
             className="bg-main-theme text-sm font-normal text-background rounded-lg px-8"
-            href={siteConfig.links.sponsor}
+            href="#contact"
             // startContent={<HeartFilledIcon className="text-danger" />}
             variant="flat"
           >

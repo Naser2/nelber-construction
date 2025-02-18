@@ -1,6 +1,6 @@
 export default function AboutSection() {
     return (
-      <section className="w-full bg-seconday-background text-white ">
+      <section id="about" className="w-full bg-seconday-background text-white ">
         <div className="mx-auto flex flex-col md:flex-row">
           {/* Left: Images Section */}
           <div className="w-full h-full md:w-1/2 min-h-full">

@@ -9,7 +9,7 @@ const ServicePanel = ({ service, isOpen, onClose }: { service: Service, isOpen: 
       <div 
         className={`fixed inset-0 bg-black bg-opacity-50 transition-opacity z-40
           ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-          onClick={onClose}
+          
       >
         <div 
           className={`fixed inset-y-0 left-0 w-full md:w-2/3 bg-white  

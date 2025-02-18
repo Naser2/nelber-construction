@@ -13,6 +13,7 @@ import CompletedProjects from "@/components/completed-projects/CompletedProjects
 import TestimonialsSection from "@/components/clients/Clients";
 import ServicesGrid from "@/components/all-services/AllServices";
 import Footer from "@/components/footer/Footer";
+import { scrollToSection } from "@/utils/scroll";
 
 export default function IndexPage() {
   // data-[menu-open=true]:border-none  backdrop-blur-lg data-[menu-open=true]:backdrop-blur-xl
@@ -103,10 +104,12 @@ export  function HeroSection() {
         </p>
 
         <div className="mt-6 flex space-x-4">
-          <button className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold flex items-center hover:bg-green-700 transition">
+          <button className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold flex items-center hover:bg-green-700 transition"
+            onClick={() => scrollToSection("services")}>
             Our Services <span className="ml-2">→</span>
           </button>
-          <button className="bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">
+          <button className="bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition"
+            onClick={() => scrollToSection("projects")}>
             View Project
           </button>
         </div>
